@@ -1,7 +1,13 @@
-# ConvertTo-DateTime PowerShell Function
+# Get-CertThumbprint PowerShell Function
 
-SYNOPSIS: Get the hash value for a .cer file.
+SYNOPSIS
 
-DESCRIPTION: Returns the hexadecimal string representation of a X.509 certificate hash value.
+Get the hash value for a .cer file.
 
-EXAMPLE: Get-CertThumbprint -CertFile webserver.cer
+DESCRIPTION
+
+Returns the hexadecimal string representation of a X.509 certificate hash value.
+
+EXAMPLE
+
+    Get-CertThumbprint -CertFile webserver.cer
